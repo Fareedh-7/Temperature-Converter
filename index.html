@@ -15,27 +15,29 @@
 
       <div class="form">
         <div class="input">
-          <input type="number" placeholder="0" id="inputLabel" />
+          <input type="number" placeholder="0" id="textBox" />
         </div>
 
         <div class="radioBtn">
           <div class="fahrenheitContainer">
-            <input type="radio" name="unit" id="toFahrenhit" />
-            <label for="toFahrenhit" class="radioLabel"
-              >Convert Celcius to Fahrenhit</label
+            <input type="radio" name="unit" id="toFahrenheit" />
+            <label for="toFahrenheit" class="radioLabel"
+              >Celcius ➡️ Fahrenhit</label
             >
           </div>
 
           <div class="celciusContainer">
             <input type="radio" name="unit" id="toCelcius" />
             <label for="toCelcius" class="radioLabel"
-              >Convert Fahrenheit to Celcius</label
+              >Fahrenheit ➡️ Celcius</label
             >
           </div>
         </div>
 
         <div class="submitBtn">
-          <button type="submit">Calculate</button>
+          <button type="submit" id="submitBtn" onclick="convert()">
+            Calculate
+          </button>
         </div>
 
         <div class="result">

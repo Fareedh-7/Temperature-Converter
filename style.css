@@ -31,7 +31,7 @@ body {
   align-items: center;
 }
 
-#inputLabel {
+#textBox {
   text-align: center;
   width: 250px;
   font-size: 24px;
@@ -44,8 +44,8 @@ body {
   margin: 30px 0;
 }
 
-.fahrenheitContainer{
-  margin-bottom:10px;
+.fahrenheitContainer {
+  margin-bottom: 10px;
 }
 
 .radioLabel {
@@ -63,7 +63,7 @@ body {
   background-color: brown;
 }
 
-.result .resultH3{
+.result .resultH3 {
   margin-top: 30px;
   font-family: sans-serif;
   font-size: 20px;
